@@ -23,6 +23,9 @@ Aqui tenemos la pagina para crear los Clientes
 
 * Al momento de registrar un Ticket se debe insertar los datos del Ticket y Vehículo; además, se debe ingresar la cedula del cliente para asociar al vehículo.
 
+Aqui podemos ver que se crea un usuario, en la parte de agregar vehiculos le pasamos el objeto Cliente y se crea el vehiculo en la base de datos, para ingresar el ticket le enviamos un objeto Vehiculo. 
+![Estructura](https://github.com/aReinoso007/Reinoso-Alex-Examen.-/blob/master/imagenes/tickers.png)
+
 * Al momento de listar los ticktes se debe visualizar la información del Ticket, Vehículo y Cliente. Los códigos no deben ser visualizados.
 
 * Los códigos deben ser generados automáticamente. 
