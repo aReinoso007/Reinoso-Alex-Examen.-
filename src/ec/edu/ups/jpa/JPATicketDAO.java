@@ -10,7 +10,6 @@ public class JPATicketDAO extends JPAGenericDAO<Ticket, Integer> implements Tick
 	public JPATicketDAO() {
 		super(Ticket.class);
 		this.em = Persistence.createEntityManagerFactory("Reinoso-Alex-Examen").createEntityManager();
-		// TODO Auto-generated constructor stub
 	}
 	
 }
