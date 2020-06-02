@@ -84,6 +84,8 @@ public class Cliente implements Serializable {
 	public void setVehiculos(List<Vehiculo> vehiculos) {
 		this.vehiculos = vehiculos;
 	}
+	
+	
 
 	@Override
 	public String toString() {

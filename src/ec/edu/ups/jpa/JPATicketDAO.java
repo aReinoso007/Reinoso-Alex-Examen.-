@@ -1,0 +1,16 @@
+package ec.edu.ups.jpa;
+
+import javax.persistence.Persistence;
+
+import ec.edu.ups.dao.TicketDAO;
+import ec.edu.ups.entidad.Ticket;
+
+public class JPATicketDAO extends JPAGenericDAO<Ticket, Integer> implements TicketDAO{
+
+	public JPATicketDAO() {
+		super(Ticket.class);
+		this.em = Persistence.createEntityManagerFactory("Reinoso-Alex-Examen").createEntityManager();
+		// TODO Auto-generated constructor stub
+	}
+	
+}
