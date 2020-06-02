@@ -17,7 +17,7 @@ Indicaciones Generales
 Estructura de la base de datos:
 ![Estructura](https://github.com/aReinoso007/Reinoso-Alex-Examen.-/blob/master/imagenes/estructurabase.png)
 
-* Los datos de los Clientes deben estar previamente ingresados en la base para lo cuál, se debe usar un Servlet (no es necesaria la interfaz gráfica).
+* Los datos de los Clientes deben estar previamente ingresados en la base para lo cuál, se debe usar un Servlet.
 Aqui tenemos la pagina para crear los Clientes
 ![Estructura](https://github.com/aReinoso007/Reinoso-Alex-Examen.-/blob/master/imagenes/crearCliente.png)
 
