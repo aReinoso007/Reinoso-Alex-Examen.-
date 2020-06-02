@@ -3,17 +3,17 @@ Examen de plataformas web
 
 Instrucciones iniciales:
 
-1.     Crear un proyecto en Eclipse e identificarlo con sus nombres completos, en el siguiente formato: Apellidos-Nombre-Examen. Por ejemplo: LeonParedes-Gabriel-Examen.
+1 Crear un proyecto en Eclipse e identificarlo con sus nombres completos, en el siguiente formato: Apellidos-Nombre-Examen. Por ejemplo: LeonParedes-Gabriel-Examen.
 
-2.     Crear un proyecto público en GitHub con el mismo nombre del punto anterior. No se debe agregar el README ni la LICENCIA.
+2 Crear un proyecto público en GitHub con el mismo nombre del punto anterior. No se debe agregar el README ni la LICENCIA.
 
-3.     Sincronizar el proyecto de Eclipse con el proyecto de GitHub (commit y push)
+3 Sincronizar el proyecto de Eclipse con el proyecto de GitHub (commit y push)
 
-4.     Desarrollar el examen.
+4 Desarrollar el examen.
 
-5.     Sincronizar el proyecto de Eclipse con el proyecto de GitHub (commit y push)
+5 Sincronizar el proyecto de Eclipse con el proyecto de GitHub (commit y push)
 
-6.     Subir al AVAC la URL del proyecto de GitHub.
+6 Subir al AVAC la URL del proyecto de GitHub.
 
 Enunciado
 
