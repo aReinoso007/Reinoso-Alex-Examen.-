@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>	
-<a href="/Reinoso-Alex-Examen/JSPs/CrearUsuario.jsp">Crear Cliente</a>
+<a href="/Reinoso-Alex-Examen/JSP/CrearUsuario.jsp">Crear Cliente</a>
 
 </body>
 </html>

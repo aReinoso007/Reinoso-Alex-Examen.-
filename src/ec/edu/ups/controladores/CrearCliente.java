@@ -62,7 +62,7 @@ public class CrearCliente extends HttpServlet {
 			clienteDAO.create(cliente);
 			System.out.println("Cliente creado en la base"+clienteDAO.findAll());
 			
-			getServletContext().getRequestDispatcher("/JSPs/Index.jsp").forward(request, response);
+			getServletContext().getRequestDispatcher("/JSP/Index.jsp").forward(request, response);
 		}
 		
 		
