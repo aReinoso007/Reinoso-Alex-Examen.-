@@ -29,15 +29,15 @@ public class Test {
 		//cli.create(c2);
 		//System.out.println("Usuario creado");
 		
-		System.out.println("Agregando vehiculo al usuario");
-		Vehiculo v1 = new Vehiculo("ABCD", c2, "toyota", "m1");
-		Ticket t1 = new Ticket(new GregorianCalendar(2020, 5, 22), new GregorianCalendar(2020, 5, 23),v1);
+		//System.out.println("Agregando vehiculo al usuario");
+		//Vehiculo v1 = new Vehiculo("ABCD", c2, "toyota", "m1");
+		//Ticket t1 = new Ticket(new GregorianCalendar(2020, 5, 22), new GregorianCalendar(2020, 5, 23),v1);
 		//tick.create(t1);
 		/*
 		vehi.create(v1);
 		System.out.println("vehiculo creado");
 		*/
-		System.out.println("Ticket creado: " +tick.findAll());
+		System.out.println(cli.read("1400919302"));
 		
 		
 
