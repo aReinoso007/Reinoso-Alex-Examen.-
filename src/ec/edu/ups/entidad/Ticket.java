@@ -33,9 +33,8 @@ public class Ticket implements Serializable {
 	}
 
 
-	public Ticket(int numero, GregorianCalendar fechaIngreso, GregorianCalendar fechaSalida, Vehiculo vehiculo) {
+	public Ticket(GregorianCalendar fechaIngreso, GregorianCalendar fechaSalida, Vehiculo vehiculo) {
 		super();
-		this.numero = numero;
 		this.fechaIngreso = fechaIngreso;
 		this.fechaSalida = fechaSalida;
 		this.vehiculo = vehiculo;
@@ -80,47 +79,6 @@ public class Ticket implements Serializable {
 		this.vehiculo = vehiculo;
 	}
 
-
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ((fechaIngreso == null) ? 0 : fechaIngreso.hashCode());
-		result = prime * result + ((fechaSalida == null) ? 0 : fechaSalida.hashCode());
-		result = prime * result + numero;
-		result = prime * result + ((vehiculo == null) ? 0 : vehiculo.hashCode());
-		return result;
-	}
-
-
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Ticket other = (Ticket) obj;
-		if (fechaIngreso == null) {
-			if (other.fechaIngreso != null)
-				return false;
-		} else if (!fechaIngreso.equals(other.fechaIngreso))
-			return false;
-		if (fechaSalida == null) {
-			if (other.fechaSalida != null)
-				return false;
-		} else if (!fechaSalida.equals(other.fechaSalida))
-			return false;
-		if (numero != other.numero)
-			return false;
-		if (vehiculo == null) {
-			if (other.vehiculo != null)
-				return false;
-		} else if (!vehiculo.equals(other.vehiculo))
-			return false;
-		return true;
-	}
 
 	
 }

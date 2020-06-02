@@ -1,10 +1,13 @@
 package ec.edu.ups.test;
 
+import java.util.GregorianCalendar;
+
 import ec.edu.ups.dao.ClienteDAO;
 import ec.edu.ups.dao.DAOFactory;
 import ec.edu.ups.dao.TicketDAO;
 import ec.edu.ups.dao.VehiculoDAO;
 import ec.edu.ups.entidad.Cliente;
+import ec.edu.ups.entidad.Ticket;
 import ec.edu.ups.entidad.Vehiculo;
 
 public class Test {
@@ -20,16 +23,21 @@ public class Test {
 		
 		
 		
-		System.out.println(c1);
+		
+		
+		//System.out.println(c1);
 		//cli.create(c2);
-		System.out.println("Usuario creado");
-		/*
+		//System.out.println("Usuario creado");
+		
 		System.out.println("Agregando vehiculo al usuario");
-		Vehiculo v1 = new Vehiculo("ABCD",c1);
+		Vehiculo v1 = new Vehiculo("ABCD", c2, "toyota", "m1");
+		Ticket t1 = new Ticket(new GregorianCalendar(2020, 5, 22), new GregorianCalendar(2020, 5, 23),v1);
+		//tick.create(t1);
+		/*
 		vehi.create(v1);
 		System.out.println("vehiculo creado");
 		*/
-		System.out.println("Cliente creado: " +cli.findAll());
+		System.out.println("Ticket creado: " +tick.findAll());
 		
 		
 
