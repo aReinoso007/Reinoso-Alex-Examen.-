@@ -4,8 +4,10 @@ import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
+import javax.persistence.Query;
 
 import ec.edu.ups.dao.GenericDAO;
+import ec.edu.ups.entidad.Cliente;
 
 public class JPAGenericDAO<T, ID> implements GenericDAO<T, ID> {
 
@@ -43,6 +45,9 @@ public class JPAGenericDAO<T, ID> implements GenericDAO<T, ID> {
 	@Override
 	public T read(ID id) {
 		System.out.println("Buscando...");
+		//Query nq = em.createNativeQuery("SELECT * FROM CLIENTE WHERE cedula=?", Cliente.class);
+		//nq.setParameter(1, id);
+		System.out.println(em.find(persistentClass, id));
 		return em.find(persistentClass, id);
 	}
 
@@ -78,7 +83,6 @@ public class JPAGenericDAO<T, ID> implements GenericDAO<T, ID> {
 
 	@Override
 	public List<T> find() {
-		
 		return null;
 	}
 

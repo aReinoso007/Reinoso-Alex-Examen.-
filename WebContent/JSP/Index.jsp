@@ -8,6 +8,8 @@
 </head>
 <body>	
 <a href="/Reinoso-Alex-Examen/JSP/CrearUsuario.jsp">Crear Cliente</a>
+<form action="/Reinoso-Alex-Examen/listarCliente" method="GET">
 
+</form>
 </body>
 </html>
