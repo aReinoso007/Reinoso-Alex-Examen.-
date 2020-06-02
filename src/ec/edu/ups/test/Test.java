@@ -37,7 +37,7 @@ public class Test {
 		vehi.create(v1);
 		System.out.println("vehiculo creado");
 		*/
-		System.out.println(cli.read("1400919302"));
+		System.out.println(cli.buscar("1400919302"));
 		
 		
 

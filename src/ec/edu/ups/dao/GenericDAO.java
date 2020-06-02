@@ -2,6 +2,8 @@ package ec.edu.ups.dao;
 
 import java.util.List;
 
+import ec.edu.ups.entidad.Cliente;
+
 public interface GenericDAO<T, ID> {
 	
 	public void createTable();
@@ -17,5 +19,5 @@ public interface GenericDAO<T, ID> {
 	public List<T> find();
 	void deleteByID(ID id);
 	List<T> findAll();
-
+	Cliente buscar(String cdi);
 }

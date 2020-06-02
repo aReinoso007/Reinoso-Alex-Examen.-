@@ -83,6 +83,7 @@ public class JPAGenericDAO<T, ID> implements GenericDAO<T, ID> {
 
 	@Override
 	public List<T> find() {
+		// TODO Auto-generated method stub
 		return null;
 	}
 
@@ -109,6 +110,14 @@ public class JPAGenericDAO<T, ID> implements GenericDAO<T, ID> {
 			e.printStackTrace();
 		}
 		return lista;
+	}
+
+
+	@Override
+	public Cliente buscar(String cdi) {
+		Query nq = em.createNativeQuery("SELECT * FROM CLIENTE WHERE cedula=?", Cliente.class);
+		nq.setParameter(1, cdi);
+		return (Cliente) nq.getSingleResult();
 	}
 
 }
