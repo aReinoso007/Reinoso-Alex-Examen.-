@@ -22,7 +22,6 @@ Aqui tenemos la pagina para crear los Clientes
 ![Estructura](https://github.com/aReinoso007/Reinoso-Alex-Examen.-/blob/master/imagenes/crearCliente.png)
 
 * Al momento de registrar un Ticket se debe insertar los datos del Ticket y Vehículo; además, se debe ingresar la cedula del cliente para asociar al vehículo.
-#No tengo
 
 * Al momento de listar los ticktes se debe visualizar la información del Ticket, Vehículo y Cliente. Los códigos no deben ser visualizados.
 
